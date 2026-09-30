@@ -174,6 +174,7 @@ or privileged operations are needed. GitHub limits slim jobs to 15 minutes; this
 repository caps the approval job at 5 minutes.
 
 Node.js 24 or newer. No runtime or development dependencies.
+The test suite uses mocked GitHub responses and needs no token or network access.
 
 ```sh
 npm test
